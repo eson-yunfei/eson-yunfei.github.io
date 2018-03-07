@@ -1,0 +1,50 @@
+# Basic
+title: eson-yunfei
+subtitle:  
+welcome_message: 
+description: 
+creator: eson-yunfei
+
+avatar_img_path: "https://avatars0.githubusercontent.com/u/17867937"
+
+url: ""
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+blog_button:
+    title: 博客
+    description: 访问博客
+
+nav:
+
+    # - {title: 简历, description: 我的简历, url: 'https://onev.cat'}
+    - {title: GitHub, description: 了解更多关于我, url: 'https://github.com/eson-yunfei'}
+    - {title: LinkedIn, description: 了解更多关于我, url: 'https://linkedin.com/in/esonyunfei'}
+    # - {title: 关于, description: 了解更多关于我, url: 'http://about.onevcat.com/'}
+    # - {title: 订阅, description: 邮件订阅本站, url: '//store.objccn.io/subscribe'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+# comment:
+    # disqus: onevcat
+    # duoshuo:
+# Social
+social:
+    weibo: 3028857897/info
+    github: eson-yunfe
+    mail: xyf861448949@qq.com
+
+# Google Analytics
+# ga:
+    # id: UA-25719337-1
+    # host: onevcat.com
