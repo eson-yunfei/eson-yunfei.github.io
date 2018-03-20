@@ -26,7 +26,10 @@ nav:
     # - {title: 简历, description: 我的简历, url: 'https://onev.cat'}
     - {title: GitHub, description: 了解更多关于我, url: 'https://github.com/eson-yunfei'}
     - {title: LinkedIn, description: 了解更多关于我, url: 'https://linkedin.com/in/esonyunfei'}
-    # - {title: 关于, description: 了解更多关于我, url: 'http://about.onevcat.com/'}
+    - {title: app下载, description: 了解更多关于我, url: '/apps'}
+
+    # - {title: 关于, description: 了解更多关于我, url: '/about'}
+
     # - {title: 订阅, description: 邮件订阅本站, url: '//store.objccn.io/subscribe'}
 
 # Pagination

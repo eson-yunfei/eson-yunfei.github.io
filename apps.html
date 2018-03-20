@@ -1,0 +1,57 @@
+---
+layout: page
+<!-- title: Apps -->
+permalink: /apps/
+---
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+
+
+
+
+<div class="app_list" id="app-posts-list" >
+
+
+</div>
+
+
+<script type="text/javascript">
+
+$(document).ready(
+   readJson()
+);
+ 
+function readJson(){
+    $.getJSON("/app_json.json",
+        function(data){
+                
+            $.each(data,
+                function(i, item) {
+                    var content = "<article class=\"app_post\" >";
+                    // content += "<a href=\"" + item.url + "\">"+  "</a>";
+                    var app_link = "<a href=\"" + item.url + "\">" + item.title+"</a>";
+
+                    var title =  "<h3 class=\"app_post-title\">" + app_link + "</h3>";
+
+                    var updateInfo = "<p>"+item.update_info+"</p>";
+                    var date = "<span class=\"app_post-date\">" +item.date+"</span>";
+                    
+                    content += "<div class=\"app_post-content\" >" 
+
+                        +   title 
+                        +   updateInfo
+                        +   date
+                        
+                        + "</div>";
+
+                     content += "</article>";
+                    $("#app-posts-list").append(content);
+                }
+            ); 
+        }
+    );
+
+};
+</script>
+

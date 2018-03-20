@@ -1,0 +1,66 @@
+
+.app_list{
+   display: inline-table;
+   max-width: 100%;
+}
+.app_post {
+    max-width: 100%;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: inline-table;
+    padding: 8px;
+    -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    min-height: 12rem;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    background-color:cornsilk;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(31, 35, 46, 0.15);
+            box-shadow: 1px 1px 1px 1px rgba(31, 35, 46, 0.15);
+  }
+
+  .app_post:hover {
+    -webkit-transform: translate(0px, -2px);
+        -ms-transform: translate(0px, -2px);
+            transform: translate(0px, -2px);
+    -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+            box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+  }
+
+  
+  
+   .app_post-content {
+    padding: 1rem;
+  }
+  
+  .app_post .app_post-content .app_post-date,
+  .app_post .app_post-content .app_post-words {
+    font-size: 10px;
+  }
+  
+  .app_post .app_post-content .app_post-title {
+    margin: 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .app_post .app_post-content .app_post-title a {
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    color: #104db6;
+  }
+  
