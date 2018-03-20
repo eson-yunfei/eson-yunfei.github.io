@@ -1,9 +1,65 @@
 [
     {
-        "title":"Carcam Back V1.20",
+        "title":"Carcam Back",
         "url":"/../app/carcam_back",
         "app_url":"/assets/apps/Carcam Back V1.20.apk",
         "update_info":"机车APP  1.20",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"Cuky",
+        "url":"/../app/cuky",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"防丢器 Cuky",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"VD",
+        "url":"/../app/vd",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"防丢器 VD",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"智游智载",
+        "url":"/../app/zyzz",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"皮尔卡丹定制 防丢器 智游智载",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"爱卫士",
+        "url":"/../app/eye",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"智能眼镜",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"LiteBle",
+        "url":"/../app/lite_ble",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"开源蓝牙SDK，蓝牙调试工具",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"乐安康",
+        "url":"/../app/lak",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"智能家居，菜谱软件",
+        "date":"2018-01-31"
+    }
+    ,
+    {
+        "title":"SMS",
+        "url":"/../app/sms",
+        "app_url":"/assets/apps/Carcam Back V1.20.apk",
+        "update_info":"智能车载预加热",
         "date":"2018-01-31"
     }
 ]
