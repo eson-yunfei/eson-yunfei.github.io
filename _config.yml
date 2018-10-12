@@ -23,7 +23,6 @@ blog_button:
 
 nav:
 
-    # - {title: 简历, description: 我的简历, url: 'https://onev.cat'}
     - {title: GitHub, description: 了解更多关于我, url: 'https://github.com/eson-yunfei'}
     - {title: LinkedIn, description: 了解更多关于我, url: 'https://linkedin.com/in/esonyunfei'}
     - {title: app下载, description: 了解更多关于我, url: '/apps'}
