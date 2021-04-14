@@ -24,7 +24,7 @@ blog_button:
 nav:
 
     - {title: GitHub, description: 了解更多关于我, url: 'https://github.com/eson-yunfei'}
-    - {title: LinkedIn, description: 了解更多关于我, url: 'https://linkedin.com/in/esonyunfei'}
+    # - {title: LinkedIn, description: 了解更多关于我, url: 'https://linkedin.com/in/esonyunfei'}
     - {title: app下载, description: 了解更多关于我, url: '/apps'}
 
     # - {title: 关于, description: 了解更多关于我, url: '/about'}
@@ -32,7 +32,8 @@ nav:
     # - {title: 订阅, description: 邮件订阅本站, url: '//store.objccn.io/subscribe'}
 
 # Pagination
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+# gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "page/:num/"
 
